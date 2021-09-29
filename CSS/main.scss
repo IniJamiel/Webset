@@ -243,11 +243,11 @@ input[type="submit"]{
       margin-left: 5vw;
       margin-right: 5vw;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(19em,1fr));
+      grid-template-columns: repeat(auto-fit, minmax(30vw,2fr));
       grid-column-gap: 5vw;
       .project-item{
         .gambar{
-          height:17em;
+          height:30vh;
         }
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(19em,2fr));
