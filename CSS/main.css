@@ -241,25 +241,10 @@ input[type=submit] {
 
 .projects h1 {
   text-align: center;
-  font-size: 3em;
 }
 .projects .h2 {
   text-decoration: none;
   font-style: normal;
-}
-.projects .project {
-  margin-left: 5vw;
-  margin-right: 5vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30vw, 2fr));
-  grid-column-gap: 5vw;
-}
-.projects .project .project-item {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19em, 2fr));
-}
-.projects .project .project-item .gambar {
-  height: 30vh;
 }
 
 nav.menu-btn {
@@ -290,6 +275,23 @@ nav li a {
 
 .mobile-menu-exit {
   float: right;
+}
+
+.sub-head {
+  font-size: 3em;
+  text-align: center;
+}
+
+.audio-work h2, .audio-work h4 {
+  text-align: center;
+}
+.audio-work ul.audio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 3fr));
+  text-align: center;
+}
+.audio-work .player {
+  width: 15em;
 }
 
 .tech-code {
@@ -401,6 +403,21 @@ footer {
   }
   .navbar nav li.current a {
     font-weight: bold;
+  }
+
+  .project {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 2fr));
+    grid-column-gap: 5vw;
+  }
+  .project .project-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19em, 2fr));
+  }
+  .project .project-item .gambar {
+    height: 30vh;
   }
 }
 

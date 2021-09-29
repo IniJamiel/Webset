@@ -234,26 +234,12 @@ input[type="submit"]{
   }
   h1{
     text-align: center;
-    font-size: 3em;
   }
   .h2{
     text-decoration: none;
     font-style: normal;
   }
-    .project{
-      margin-left: 5vw;
-      margin-right: 5vw;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30vw,2fr));
-      grid-column-gap: 5vw;
-      .project-item{
-        .gambar{
-          height:30vh;
-        }
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(19em,2fr));
-      }
-    }
+
 }
 nav.menu-btn{
   display: block;
@@ -285,9 +271,27 @@ nav{
 .mobile-menu-exit{
   float: right;
 }
+.sub-head{
+  font-size: 3em;
+  text-align: center;
+}
+.audio-work{
+  h2, h4{
+    text-align: center;
+  }
+  ul.audio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em,3fr));
+    text-align: center;
+  }
+  .player{
+    width:15em;
+  }
+}
+
 .tech-code{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12em,3fr))
+  grid-template-columns: repeat(auto-fit, minmax(12em,3fr));
 }
 footer{
   background: rgb(49, 34, 35);
@@ -395,6 +399,20 @@ footer{
     }
     li.current a{
       font-weight: bold;
+    }
+  }
+  .project{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw,2fr));
+    grid-column-gap: 5vw;
+    .project-item{
+      .gambar{
+        height:30vh;
+      }
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(19em,2fr));
     }
   }
 }
