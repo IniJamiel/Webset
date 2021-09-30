@@ -288,8 +288,12 @@ nav li a {
   text-align: center;
 }
 
-.audio-work h2, .audio-work h4 {
+.audio-work h2, .audio-work h4, .audio-work p, .audio-work h6 {
   text-align: center;
+  margin: 0;
+}
+.audio-work h2 {
+  text-decoration: underline;
 }
 .audio-work ul.audio {
   display: grid;

@@ -281,8 +281,12 @@ nav{
   text-align: center;
 }
 .audio-work{
-  h2, h4{
+  h2, h4,p, h6{
     text-align: center;
+    margin:0;
+  }
+  h2{
+    text-decoration: underline;
   }
   ul.audio {
     display: grid;
