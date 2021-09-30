@@ -225,10 +225,12 @@ input[type="submit"]{
 }
 
 .projects{
+  .webber{
+    border: .2em solid rgba(0, 0, 0, 0.13);
+  }
   .project-item{
     a{
       &:hover{
-
       }
     }
   }
@@ -316,6 +318,28 @@ footer{
     }
   }
 }
+.people{
+  h1{
+
+  }
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+  p{
+    text-align: justify;
+  }
+  .caption{
+    font-style: italic;
+    text-align: center;
+  }
+  .people-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em,1fr));
+    column-gap: 5vw;
+  }
+}
+
+
 @keyframes fadein{
   0%{opacity: .7;}
   100%{opacity: 100%;}
@@ -340,6 +364,7 @@ footer{
     }
   }
   .hero{
+    text-align: center;
     padding-top:-13vh;
     .container{
       display: grid;

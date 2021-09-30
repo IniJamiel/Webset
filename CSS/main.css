@@ -239,6 +239,9 @@ input[type=submit] {
   cursor: pointer;
 }
 
+.projects .webber {
+  border: 0.2em solid rgba(0, 0, 0, 0.13);
+}
 .projects h1 {
   text-align: center;
 }
@@ -319,6 +322,24 @@ footer {
 .post-hero .perk-list {
   align-content: center;
 }
+.people {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+}
+.people p {
+  text-align: justify;
+}
+.people .caption {
+  font-style: italic;
+  text-align: center;
+}
+.people .people-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  column-gap: 5vw;
+}
+
 @keyframes fadein {
   0% {
     opacity: 0.7;
@@ -343,6 +364,7 @@ footer {
   }
 
   .hero {
+    text-align: center;
     padding-top: -13vh;
   }
   .hero .container {
