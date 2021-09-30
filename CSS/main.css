@@ -242,6 +242,9 @@ input[type=submit] {
 .projects .webber {
   border: 0.2em solid rgba(0, 0, 0, 0.13);
 }
+.projects p {
+  text-align: justify;
+}
 .projects h1 {
   text-align: center;
 }
@@ -257,11 +260,11 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 66%;
+  width: auto;
   right: 0;
   top: 0;
   background: rgba(31, 31, 31, 0.57);
-  height: 100vh;
+  height: 80vh;
   padding: 1em;
 }
 nav ul.navbar-nav {
@@ -290,7 +293,7 @@ nav li a {
 }
 .audio-work ul.audio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12em, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(19em, 3fr));
   text-align: center;
 }
 .audio-work .player {

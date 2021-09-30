@@ -228,6 +228,9 @@ input[type="submit"]{
   .webber{
     border: .2em solid rgba(0, 0, 0, 0.13);
   }
+  p{
+    text-align: justify;
+  }
   .project-item{
     a{
       &:hover{
@@ -250,11 +253,11 @@ nav.menu-btn{
 nav{
   position: fixed;
   z-index: 999;
-  width: 66%;
+  width: auto;
   right: 0;
   top: 0;
   background: rgba(31, 31, 31, 0.57);
-  height: 100vh;
+  height: 80vh;
   padding:1em;
   ul.navbar-nav{
     margin-top: 5em;
@@ -283,7 +286,7 @@ nav{
   }
   ul.audio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12em,3fr));
+    grid-template-columns: repeat(auto-fit, minmax(19em,3fr));
     text-align: center;
   }
   .player{
