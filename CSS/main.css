@@ -334,6 +334,11 @@ footer {
   height: 10vh;
 }
 
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+}
+
 .people, .achievement, .contact-section {
   margin-left: 10vw;
   margin-right: 10vw;
