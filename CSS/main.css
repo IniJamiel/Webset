@@ -329,19 +329,24 @@ footer {
 .post-hero .perk-list {
   align-content: center;
 }
-.people {
+.logoo {
+  max-width: 100%;
+  height: 10vh;
+}
+
+.people, .achievement, .contact-section {
   margin-left: 10vw;
   margin-right: 10vw;
   text-align: center;
 }
-.people p {
+.people p, .achievement p, .contact-section p {
   text-align: justify;
 }
-.people .caption {
+.people .caption, .achievement .caption, .contact-section .caption {
   font-style: italic;
   text-align: center;
 }
-.people .people-list {
+.people .people-list, .achievement .people-list, .contact-section .people-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
   column-gap: 5vw;
