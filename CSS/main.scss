@@ -453,7 +453,8 @@ footer{
     grid-column-gap: 5vw;
     .project-item{
       .gambar{
-        height:30vh;
+        width:30vh;
+        display: flex;
       }
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(19em,2fr));
